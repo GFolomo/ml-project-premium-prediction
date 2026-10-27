@@ -191,24 +191,9 @@ Segmenting by age turned a model that failed the second requirement into one tha
 └── requirements.txt
 ```
 
-## Run locally
-
-```bash
-git clone https://github.com/GFolomo/ml-project-premium-prediction.git
-cd ml-project-premium-prediction
-pip install -r requirements.txt
-streamlit run main.py
 ```
 
-## Limitations and next steps
+## Author  
 
-- **Phase 2 of the SOW:** straight-through processing (STP) so quotes can be generated end to end without manual handling
-- Fit scalers on training data only, inside a scikit-learn `Pipeline`, to rule out data leakage and simplify deployment
-- Smoother handling of the age 25/26 segment boundary, since applicants switch models at that point
-- Cross-validation of the final segmented models, and monitoring of prediction drift and error per segment
-- The risk weights per medical condition are assigned judgments, and could be replaced with weights learned from claims data
-
-## Author
-
-**Gires Folomo**, Data Scientist, Johannesburg, South Africa
-[https://gires-ml-project-premium-prediction.streamlit.app/]| [GitHub](https://github.com/GFolomo)
+**Gires Kibwana Folomo**, Data Scientist, Johannesburg, South Africa
+[Streamlit](https://gires-ml-project-premium-prediction.streamlit.app/) | [GitHub](https://github.com/GFolomo)
