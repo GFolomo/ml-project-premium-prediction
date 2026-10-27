@@ -210,5 +210,5 @@ streamlit run main.py
 
 ## Author
 
-**Gires Kibwana Folomo**, Senior Data Analyst, Johannesburg, South Africa
-[LinkedIn](#) | [GitHub](https://github.com/GFolomo)
+**Gires Folomo**, Data Scientist, Johannesburg, South Africa
+[https://gires-ml-project-premium-prediction.streamlit.app/]| [GitHub](https://github.com/GFolomo)
